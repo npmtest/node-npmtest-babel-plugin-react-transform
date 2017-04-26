@@ -1,6 +1,6 @@
 # npmtest-babel-plugin-react-transform
 
-#### test coverage for  [babel-plugin-react-transform (v2.0.2)](https://github.com/gaearon/babel-plugin-react-transform#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-react-transform.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-react-transform) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-react-transform.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-react-transform)
+#### basic test coverage for  [babel-plugin-react-transform (v2.0.2)](https://github.com/gaearon/babel-plugin-react-transform#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-react-transform.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-react-transform) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-react-transform.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-react-transform)
 
 #### Babel plugin to instrument React components with custom transforms
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-babel-plugin-react-transform/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-babel-plugin-react-transform/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-babel-plugin-react-transform/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-babel-plugin-react-transform/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-plugin-react-transform/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-plugin-react-transform/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-babel-plugin-react-transform/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-babel-plugin-react-transform/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-plugin-react-transform/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-plugin-react-transform/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-babel-plugin-react-transform/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-babel-plugin-react-transform/build/coverage.html/index.html)
 
@@ -95,7 +95,8 @@
         "test": "mocha --compilers js:babel-register",
         "test:watch": "npm run test -- --watch"
     },
-    "version": "2.0.2"
+    "version": "2.0.2",
+    "bin": {}
 }
 ```
 
